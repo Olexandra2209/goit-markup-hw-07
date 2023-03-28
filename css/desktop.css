@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  img {
+    width: 100%;
+  }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team-images {
+    width: calc((100%-72px) / 4);
+  }
+}

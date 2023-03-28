@@ -31,10 +31,11 @@ body {
   line-height: 1.5;
 }
 .container {
-  width: 1158px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
+
 .list {
   list-style: none;
 }
@@ -50,7 +51,7 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.nav {
+/* .nav {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
@@ -211,7 +212,7 @@ body {
 .actions {
   display: flex;
   gap: 24px;
-}
+} */
 .section-title {
   color: var(--title-text-color);
   font-weight: 500;
@@ -234,7 +235,6 @@ body {
   margin-right: 24px;
 }
 .team-images {
-  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -256,10 +256,13 @@ body {
 .team {
   background-color: var(--background-color);
   color: var(--primary-text-color);
-  padding: 120px 0;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 .team-members {
   display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .member {
   color: var(--title-text-color);
@@ -302,7 +305,7 @@ body {
   width: 16px;
   height: 16px;
 }
-.customers-title {
+/* .customers-title {
   padding-top: 130px;
   margin-bottom: 72px;
 }
@@ -403,8 +406,8 @@ body {
 }
 .footer-media-link:is(:hover, :focus) {
   background-color: #31d0aa;
-}
-.menu {
+} */
+/* .menu {
   padding-bottom: 120px;
   padding-top: 96px;
 }
@@ -756,4 +759,4 @@ body {
 }
 .subscribe-icon {
   fill: #ffffff;
-}
+} */
