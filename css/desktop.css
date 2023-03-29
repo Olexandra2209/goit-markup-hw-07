@@ -6,8 +6,7 @@
     width: 100%;
   }
   .team {
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding: 120px 0;
   }
   .team-images {
     width: calc((100%-72px) / 4);
