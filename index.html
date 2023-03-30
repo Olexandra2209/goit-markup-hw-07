@@ -30,7 +30,7 @@
           <li><a href="" class="link">Contacts</a></li>
         </ul>
       </nav>
-      <button type="button" class="mobile-menu-open"><svg class="action-icon" width="32" height="22">
+      <button type="button" class="mobile-menu-open js-open-menu"><svg class="action-icon" width="32" height="22">
           <use href="./images/icon.svg#icon-burger"></use>
         </svg>
       </button>
@@ -45,14 +45,52 @@
         </ul>
       </address>
     </div>
+    <div class="container mobile-menu js-menu-container">
+      <button class="mobile-menu__close-btn js-close-menu">
+        <svg class="mobile-menu__close-icon" width="8" height="8">
+          <use href="./images/icon.svg#icon-close-black"></use>
+        </svg>
+      </button>
+      <ul class="site-nav-mobile list">
+        <li><a href="./index.html" class="link current">Studio</a></li>
+        <li><a href="./portfolio.html" class="link">Portfolio</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+      </ul>
+      <ul class="address-nav-mobile list">
+        <li>
+          <a href="tel:+110001111111" class="tel">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+          <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="team-social-list-mobile list">
+        <li class="team-social-item"><a href="" class="team-social-link link"><svg class="team-social-icon" width="16"
+              height="16">
+              <use href="./images/icon.svg#icon-instagram"></use>
+            </svg></a></li>
+        <li class="team-social-item"><a href="" class="team-social-link link"><svg class="team-social-icon" width="16"
+              height="16">
+              <use href="./images/icon.svg#icon-twitter"></use>
+            </svg></a></li>
+        <li class="team-social-item"><a href="" class="team-social-link link"><svg class="team-social-icon" width="16"
+              height="16">
+              <use href="./images/icon.svg#icon-facebook"></use>
+            </svg></a></li>
+        <li class="team-social-item"><a href="" class="team-social-link link"><svg class="team-social-icon" width="16"
+              height="16">
+              <use href="./images/icon.svg#icon-linkedin"></use>
+            </svg></a></li>
+      </ul>
+    </div>
   </header>
   <main>
-    <!-- <section class="hero">
+    <section class="hero">
       <div class="container hero-container">
         <h1 class="hero-title">Effective Solutions for Your Business</h1>
         <button type="button" data-modal-open class="btn">Order Service</button>
       </div>
-    </section> -->
+    </section>
     <!-- <section class="action-container">
       <div class="container ">
         <h2 class="visually-hidden">Actions</h2>
@@ -335,7 +373,11 @@
 
   </div> -->
 
-  <!-- <script src="./js/modal.js"></script> -->
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script src="./js/mobile-menu.js"></script>
+  <!-- <script src="./js/modal.js"></script>
 </body>
 
 </html>

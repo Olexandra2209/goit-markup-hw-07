@@ -2,52 +2,12 @@
   .container {
     max-width: 428px;
   }
-  .header-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .logo {
-    color: var(--primary-brand);
-    font-family: Raleway, sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 76px;
-  }
-  .decor {
-    color: var(--title-text-color);
-    font-family: Raleway, sans-serif;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 76px;
-  }
-  .nav {
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #e7e9fc;
-  }
-  .mobile-menu-open {
-    background-color: transparent;
-    border: none;
-    padding: 0;
-    height: 22px;
-    cursor: pointer;
-  }
+
   /* .team {
     padding: 96px 82px;
   } */
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .address {
     display: none;
   }

@@ -5,10 +5,28 @@
   img {
     width: 100%;
   }
-  .team {
+  .menu-link {
+    margin-left: auto;
+  }
+  .address {
+    margin-left: auto;
+  }
+  .address-nav {
+    display: flex;
+  }
+  .address-nav .mail,
+  .address-nav .tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-right: 40px;
+  }
+  font-size: 12px;
+  line-height: 1.17;
+  /* .team {
     padding: 120px 0;
   }
   .team-images {
     width: calc((100%-72px) / 4);
-  }
+  } */
 }
