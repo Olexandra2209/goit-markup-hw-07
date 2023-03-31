@@ -2,16 +2,24 @@
   .container {
     max-width: 428px;
   }
+  @media screen and (max-width: 768px) {
+    .address {
+      display: none;
+    }
+    .site-nav {
+      display: none;
+    }
+  }
+  .hero-container {
+    max-width: 100%;
+  }
+  .hero-title {
+    width: 320px;
+    font-size: 36px;
+    line-height: 1.11;
+  }
 
   /* .team {
     padding: 96px 82px;
   } */
-}
-@media screen and (max-width: 768px) {
-  .address {
-    display: none;
-  }
-  .site-nav {
-    display: none;
-  }
 }

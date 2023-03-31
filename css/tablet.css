@@ -5,11 +5,11 @@
   img {
     width: 100%;
   }
-  .nav {
+  /* .nav {
     padding-top: 16px;
     padding-bottom: 16px;
   }
-  .mobile-menu-open {
+  .mobile-menu {
     display: none;
   }
   .menu-link {
@@ -80,11 +80,47 @@
   .address-nav :hover,
   .address-nav :focus {
     color: var(--hover-color);
+  } */
+  .hero-title {
+    width: 496px;
+    height: 120px;
+    font-size: 56px;
+    line-height: 1.07;
   }
-
   .hero-container {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .hero {
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab-1x-min.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-2x-min.jpg);
+    }
+  }
+  .section-title {
+    text-align: left;
+  }
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .action {
+    flex-basis: calc((100% - 24px) / 2);
   }
   /* .team {
     padding: 96px 108px;
