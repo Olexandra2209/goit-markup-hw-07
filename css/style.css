@@ -112,10 +112,10 @@ body {
   max-height: 796px;
 }
 
-position: relative;
+/* position: relative;
 padding-left: 40px;
 padding-top: 80px;
-padding-bottom: 40px;
+padding-bottom: 40px; */
 
 .mobile-menu__close-btn {
   position: absolute;
