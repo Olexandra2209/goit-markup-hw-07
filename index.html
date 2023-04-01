@@ -147,18 +147,22 @@
       <div class="container">
         <h2 class="title">What Are We Doing</h2>
         <ul class="card-set list">
-          <li class="section-images"><img src="./images/img1.jpg" alt="Laptop" width="360" /></li>
-          <li class="section-images"><img src=" ./images/img2.jpg" alt="Screen" width="360" /></li>
-          <li class="section-images"><img src=" ./images/img3.jpg" alt="Phone" width="360" /></li>
+          <li class="section-images"><img srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x" src="./images/img1.jpg"
+              alt="Laptop" width="360" /></li>
+          <li class="section-images"><img srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+              src=" ./images/img2.jpg" alt="Screen" width="360" /></li>
+          <li class="section-images"><img srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x,"
+              src=" ./images/img3.jpg" alt="Phone" width="360" /></li>
         </ul>
       </div>
     </section>
-    <!-- <section class="team">
-      <div class="container">
+    <section class="team">
+      <div class="container container-team">
         <h2 class="team-title">Our Team</h2>
         <ul class="team-members card-set list">
           <li class="team-images">
-            <img src="./images/member1.jpg" alt="Designer" width="264" />
+            <img srcset="./images/member1.jpg 1x, ./images/member1-2x.jpg 2x" src="./images/member1.jpg" alt="Designer"
+              width="264" />
             <div class="name">
               <h3 class="member">Mark Guerrero</h3>
               <p class="text">Product Designer</p>
@@ -183,7 +187,8 @@
             </div>
           </li>
           <li class="team-images">
-            <img src="./images/member2.jpg" alt="Developer" width="264" />
+            <img srcset="./images/member2.jpg 1x, ./images/member2-2x.jpg 2x" src="./images/member2.jpg" alt="Developer"
+              width="264" />
             <div class="name">
               <h3 class="member">Tom Ford</h3>
               <p class="text">Frontend Developer</p>
@@ -208,7 +213,8 @@
             </div>
           </li>
           <li class="team-images">
-            <img src="./images/member3.jpg" alt="Marketing" width="264" />
+            <img srcset="./images/member3.jpg 1x, ./images/member3-2x.jpg 2x" src="./images/member3.jpg" alt="Marketing"
+              width="264" />
             <div class="name">
               <h3 class="member">Camila Garcia</h3>
               <p class="text">Marketing</p>
@@ -233,7 +239,8 @@
             </div>
           </li>
           <li class="team-images">
-            <img src="./images/member4.jpg" alt="UIDesigner" width="264" />
+            <img srcset="./images/member4.jpg 1x, ./images/member4-2x.jpg 2x" src="./images/member4.jpg"
+              alt="UIDesigner" width="264" />
             <div class="name">
               <h3 class="member">Daniel Wilson</h3>
               <p class="text">UI Designer</p>
@@ -259,8 +266,8 @@
           </li>
         </ul>
       </div>
-    </section> -->
-    <!-- <section class="customers">
+    </section>
+    <section class="customers">
       <h2 class="customers-title title">Customers</h2>
       <ul class="customers-list list">
         <li class="customers-item"><a href="" class="customers-link link"><svg class="customers-icon" width="104"
@@ -288,9 +295,9 @@
               <use href="./images/icon.svg#icon-Logo5"></use>
             </svg> </a></li>
       </ul>
-    </section> -->
+    </section>
   </main>
-  <!-- <footer class="footer">
+  <footer class="footer">
     <div class="container">
       <div class="footer-container">
         <a href="./index.html" class="footer-logo">Web<span class="footer-decor">Studio</span></a>
@@ -332,7 +339,7 @@
         </form>
       </div>
     </div>
-  </footer> -->
+  </footer>
 
   <!-- <div class="backdrop is-hidden" data-modal>
     <div class="modal"><button type="button" data-modal-close class="modal-close"><svg class="modal-icon" width="8"
