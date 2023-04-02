@@ -2,24 +2,28 @@
   .container {
     max-width: 428px;
   }
-  @media screen and (max-width: 768px) {
-    .address {
-      display: none;
-    }
-    .site-nav {
-      display: none;
-    }
-  }
+
   .hero-container {
     max-width: 100%;
   }
   .hero-title {
     width: 320px;
     font-size: 36px;
-    line-height: 1.11;
   }
-
-  /* .team {
-    padding: 96px 82px;
-  } */
+  .modal {
+    width: 408px;
+    min-height: 586px;
+    overflow-y: unset;
+    height: auto;
+    max-height: none;
+  }
+  .modal-title {
+    font-size: 16px;
+  }
+  .modal-text {
+    font-size: 12px;
+  }
+  .privacy-link {
+    font-size: 12px;
+  }
 }
