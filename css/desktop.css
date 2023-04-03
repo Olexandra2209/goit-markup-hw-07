@@ -2,8 +2,11 @@
   .container {
     max-width: 1158px;
   }
+  .nav {
+    padding: 24px 0;
+  }
   .site-nav .link.current::after {
-    top: 29px;
+    top: 42px;
   }
   .address-nav .mail,
   .address-nav .tel {
