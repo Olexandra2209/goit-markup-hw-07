@@ -170,7 +170,7 @@ body {
 }
 .tel-mobile {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 27px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--primary-brand);
@@ -267,8 +267,8 @@ body {
   background-color: var(--hover-color);
 }
 
-.actions-container {
-  padding: 96px 16px;
+.action-container {
+  padding: 96px 0;
 }
 .action-card {
   display: none;
@@ -289,9 +289,10 @@ body {
   max-width: 396px;
   width: 100%;
 }
-.action:not(:last-child) {
+.action-margin {
   margin-bottom: 72px;
 }
+
 @media screen and (max-width: 1199px) {
   .wawd-section {
     display: none;
@@ -377,7 +378,7 @@ body {
   height: 16px;
 }
 .customers {
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 .customers-title {
   font-weight: 700;
@@ -534,8 +535,6 @@ body {
 .menu {
   padding-bottom: 48px;
   padding-top: 48px;
-}
-.container-menu {
 }
 .menu-nav {
   display: flex;

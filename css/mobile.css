@@ -2,7 +2,9 @@
   .container {
     max-width: 428px;
   }
-
+  .tel-mobile {
+    font-size: 36px;
+  }
   .hero-container {
     max-width: 100%;
   }

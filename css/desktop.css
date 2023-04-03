@@ -43,8 +43,7 @@
         url(../images/hero-bg-desk-2x-min.jpg);
     }
   }
-
-  .actions-container {
+  .action-container {
     padding: 120px 0;
   }
   .action-card {
@@ -61,7 +60,7 @@
     gap: 24px;
     flex-wrap: nowrap;
   }
-  .action:not(:last-child) {
+  .action-margin {
     margin-bottom: 0;
   }
   .section-title {
@@ -83,6 +82,10 @@
     padding: 0;
     list-style: none;
   }
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
   .section-images {
     flex-basis: calc((100% - 48px) / 3);
   }
@@ -99,7 +102,7 @@
     width: 100%;
   }
   .customers {
-    max-width: 1158px;
+    padding: 120px 0;
     width: 100%;
   }
   .customers-list {
@@ -110,7 +113,7 @@
   }
   .menu {
     padding-bottom: 120px;
-    padding-top: 96px;
+    padding-top: 100px;
   }
   .menu-nav {
     display: flex;
